@@ -25,7 +25,7 @@ This management pack was built with VMware Aria Management Pack Builder and is i
 .
 ├── LICENSE.md
 ├── README.md
-├── PAK Installers
+├── PAK-Release
 │   ├── Dell-Unity Community Management Pack-1.3.8.23.pak
 │   └── Dell-Unity Community Management Pack-1.3.8.23_icons.pak
 ├── mp-builder
@@ -288,7 +288,7 @@ No inbound connection from Dell Unity to Aria Operations is required for normal 
 4. Select the recommended PAK:
 
    ```text
-   PAK Installers/Dell-Unity Community Management Pack-1.3.8.23_icons.pak
+   PAK-Release/Dell-Unity Community Management Pack-1.3.8.23_icons.pak
    ```
 
 5. Accept the prompts and allow the PAK to install.
@@ -444,9 +444,9 @@ From the root of the repository:
 
 ```powershell
 python .\CustomIcons-tooling\inject_unity_custom_icons.py `
-  ".\PAK Installers\Dell-Unity Community Management Pack-1.3.8.23.pak" `
+  ".\PAK-Release\Dell-Unity Community Management Pack-1.3.8.23.pak" `
   --icons-dir ".\CustomIcons-tooling\icons" `
-  --output ".\PAK Installers\Dell-Unity Community Management Pack-1.3.8.23_icons.pak"
+  --output ".\PAK-Release\Dell-Unity Community Management Pack-1.3.8.23_icons.pak"
 ```
 
 ### What the Injector Changes
