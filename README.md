@@ -59,7 +59,7 @@ This management pack was built with VMware Aria Management Pack Builder and is i
         └── world.png
 ```
 
-![Dell Unity Topology](images/Aria-Topology.png)
+![Dell Unity Topology](Images/Aria-Topology.png)
 
 ## Which PAK Should I Install?
 
